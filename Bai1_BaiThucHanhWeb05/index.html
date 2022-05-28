@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Todo List</title>
+        <link
+            rel="stylesheet"
+            href="https://www.w3schools.com/w3css/4/w3.css"
+        />
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div class="todo__list">
+            <div class="header">
+                <h1>My Todos</h1>
+            </div>
+
+            <div class="main">
+                <div class="main__text">
+                    <h2>Learn React</h2>
+                </div>
+
+                <button class="btn__delete">Delete</button>
+            </div>
+        </div>
+
+        <div class="label__confirm">
+            <p class="label__text">Are you sure?</p>
+
+            <div class="label__btn">
+                <button class="btn__cancel">Cancel</button>
+                <button class="btn__confirm">Confirm</button>
+            </div>
+        </div>
+
+        <div class="modal w3-modal w3-animate-opacity" id="modal"></div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
